@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url(Poppins-Regular.ttf);
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(0deg, violet, #7becf2);
+}
+.nav-brand{color: #f4f4f4;}
+.navbar{
+    background: rgb(132, 0, 255);
+}
+.items{
+    display: flex;
+    list-style: none;
+    margin-bottom: 0px;
+}
+.nav-brand{margin-bottom: 0px;}
+.nav-link{
+	color: #f4f4f4;
+	cursor: pointer;
+}
+.nav-link{
+	color: white;
+    margin: 0px 15px;
+    padding: 6px 15px;
+    transition: all 0.3s;
+    border: none;
+    border-radius: 5px;
+}
+.nav-link:hover{
+    background: #f4f4f4;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+.item1{
+    background: blueviolet;
+    font-size: 14pt;
+    color: wheat;
+}
+.item2{
+    background-color: gainsboro;
+}
+.jumbotron{
+    margin-top: 30px;
+}
+.fix1{
+    padding-top: 10px;
+}
+.fixing{
+    text-decoration: none;
+    color: #0d6efd;
+}
